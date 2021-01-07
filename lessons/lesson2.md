@@ -16,9 +16,9 @@ We'll create the file at the root of the Firefly App and name it `defaults.json`
 
 Then we're going to import the value in our action `todolist/index.js`:
 
-``javascript
+```javascript
 const { MAX_TODO_ITEMS } = require('../../defaults.json');
-``
+```
 
 In the next lesson, we'll also show how to import the value from the `web-src` folder.
 
