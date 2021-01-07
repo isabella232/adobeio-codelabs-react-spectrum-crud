@@ -104,7 +104,7 @@ const onUpdateTodoList = async (name, todo) => {
 ### Loading indicator
 
 By default, we'll be showing a `ProgressCircle` to indicate that the App is loading. 
-Meanwhile, the todo lists will be fetched using an [Effect Hook](https://reactjs.org/docs/hooks-effect.html) which will run only once when the App is mounted (and unmounted).    
+Meanwhile, the todo lists will be fetched using an [Effect Hook](https://reactjs.org/docs/hooks-effect.html) which will run only once when the App is mounted.    
 
 Once we've retrieved the todo lists, we're updating the todo list state and set the loading state to `false`.
 
