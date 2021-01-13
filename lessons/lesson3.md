@@ -3,7 +3,7 @@
 In this lesson, we'll create a first React component that will be used to perform a create operation to generate a todo list.
 The only value that will be passed to create a todo list is its name.
 
-First, we'll create the React component file under `web-src/src` and name it `CreateTodoList.js`. 
+First, we'll create the React component file under `web-src/src/components/` and name it `CreateTodoList.js`. 
 If you're not familiar with React components and props, please first read the React documentation on [JSX](https://reactjs.org/docs/introducing-jsx.html) and [Components and props](https://reactjs.org/docs/components-and-props.html).
 
 ### Import React Spectrum components
@@ -87,7 +87,7 @@ We'll prevent the default form submission behavior with `event.preventDefault()`
 Finally, we'll add the Flex layout to align the TextField with the Button to obtain a fully functional React component.
 Read more about React rendering [here](https://reactjs.org/docs/rendering-elements.html).
 
-See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/CreateTodoList.js).
+See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/components/CreateTodoList.js).
 
 ![CreateTodoList](assets/createtodolist.png)
 

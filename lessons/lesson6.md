@@ -7,7 +7,14 @@ In the previous lessons, we have setup:
 * `Todo` React component to display and update a todo item.      
 * `TodoList` React component to display todo items.      
 
-In this lesson, we'll build the actual App to manage todo lists.  
+In this lesson, we'll build the actual App to manage todo lists. We'll create the React component file under `web-src/src/components/` and simply name it `App.js`.
+
+We'll start by importing our components: 
+
+```javascript
+import { CreateTodoList } from './CreateTodoList';
+import { TodoList } from './TodoList';
+```  
 
 ### Import React Spectrum components
 
@@ -55,7 +62,7 @@ To communicate with the Runtime action, we'll create a simple utility function w
 First make sure to import the `config.json` which contains the URL to your Runtime action.
 
 ```javascript
-import actions from './config.json';
+import actions from '../config.json';
 ```
 
 Then inside the `App`, we'll define the utility function with the `ims` information.
@@ -167,7 +174,7 @@ Finally, we'll just wrap the whole App inside the React Spectrum Provider with t
 </Provider>
 ```
 
-See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/App.js).
+See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/components/App.js).
 
 ![App](assets/app.png)
 

@@ -2,7 +2,7 @@
 
 In this lesson, we'll create a Todo React component which is only composed of 2 React Spectrum components: [Checkbox](https://react-spectrum.adobe.com/react-spectrum/Checkbox.html) and [TextField](https://react-spectrum.adobe.com/react-spectrum/TextField.html).
 
-Similarly to [lesson 3](lesson3.md), we'll create the React component file under `web-src/src` and name it `Todo.js`.
+Similarly to [lesson 3](lesson3.md), we'll create the React component file under `web-src/src/components/` and name it `Todo.js`.
 
 ### Import React Spectrum components
 
@@ -82,7 +82,7 @@ We'll do exactly the same for `Checkbox`.
 
 Finally, we're using the Flex layout to align the Checkbox with the TextField and we're done with our Todo component.
 
-See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/Todo.js).
+See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/components/Todo.js).
 
 ![Todo](assets/todo.png)
 

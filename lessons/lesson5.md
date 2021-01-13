@@ -6,7 +6,7 @@ In this lesson, we'll create a TodoList React component that will be able to:
 * Delete the whole todo list. 
 * Display Todo items we have built in the previous lesson.  
 
-We'll create the React component file under `web-src/src` and name it `TodoList.js`.
+We'll create the React component file under `web-src/src/components/` and name it `TodoList.js`.
 
 ### Import React Spectrum components
 
@@ -183,9 +183,9 @@ Confirming the operation will simply call the `onDelete` callback function passi
 
 ### Full component
 
-Finally, we'll wrap the whole component inside a `Well` and use the Flex layout to verticall align the `Todo` items.
+Finally, we'll wrap the whole component inside a `Well` and use the Flex layout to vertically align the `Todo` items.
 
-See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/TodoList.js).
+See the full component code [here](https://github.com/AdobeDocs/adobeio-samples-todoapp/blob/master/web-src/src/components/TodoList.js).
 
 ![App](assets/todolist.png)
 
