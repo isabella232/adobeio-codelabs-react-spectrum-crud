@@ -71,9 +71,12 @@ Next, we'll initialize the state library and retrieve a `todolist` value with `s
 ```javascript
 const state = await stateLib.init();
 
-let todoList = (await state.get(`todolist`)) || [];
-if (todoList) {
+let todoList = await state.get(`todolist`);
+if (todoList?.value) {
   todoList = todoList.value;
+}
+else {
+  todoList = [];
 }
 ```  
 
